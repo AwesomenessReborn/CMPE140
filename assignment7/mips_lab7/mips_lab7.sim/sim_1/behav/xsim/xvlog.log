@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/auxdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module auxdec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/button_debouncer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module button_debouncer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/controlunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlunit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/dreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/hex_to_7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex_to_7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/led_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mips_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/muldivunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muldivunit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mips_fpga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_fpga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

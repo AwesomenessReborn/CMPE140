@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/synth_1/mips_fpga.tcl"
+  variable script "D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/synth_1/mips_fpga.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,7 +56,6 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
 set_param general.usePosixSpawnForFork 1
 set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
@@ -65,34 +64,34 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.cache/wt [current_project]
-set_property parent.project_path E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.xpr [current_project]
+set_property webtalk.parent_dir D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.cache/wt [current_project]
+set_property parent.project_path D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo e:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.cache/ip [current_project]
+set_property ip_output_repo d:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/adder.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/alu.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/auxdec.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/button_debouncer.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/clk_gen.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/controlunit.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/datapath.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dmem.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dreg.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/hex_to_7seg.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/imem.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/led_mux.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/maindec.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_top.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mux2.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/regfile.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/signext.v
-  E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_fpga.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/adder.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/alu.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/auxdec.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/button_debouncer.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/clk_gen.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/controlunit.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/datapath.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dmem.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dreg.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/hex_to_7seg.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/imem.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/led_mux.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/maindec.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_top.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mux2.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/regfile.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/signext.v
+  D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_fpga.v
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -103,12 +102,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc
-set_property used_in_implementation false [get_files E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc]
+read_xdc D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc
+set_property used_in_implementation false [get_files D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/utils_1/imports/synth_1/mips_fpga.dcp
+read_checkpoint -auto_incremental -incremental D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/utils_1/imports/synth_1/mips_fpga.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

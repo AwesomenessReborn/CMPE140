@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Thu Oct 16 04:36:07 2025
-| Host         : HARI-PC running 64-bit major release  (build 9200)
+| Date         : Thu Oct 16 10:31:21 2025
+| Host         : Hari-XPS running 64-bit major release  (build 9200)
 | Command      : report_drc -file mips_fpga_drc_opted.rpt -pb mips_fpga_drc_opted.pb -rpx mips_fpga_drc_opted.rpx
 | Design       : mips_fpga
 | Device       : xc7a35tcpg236-1

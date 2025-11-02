@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc rfile:../../../ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc rfile:../../../ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict {PACKAGE_PIN W5 IOSTANDARD LVCMOS33}           [get_ports {clk}];
 set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]

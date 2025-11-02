@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/impl_1/mips_fpga.tcl"
+  variable script "D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/impl_1/mips_fpga.tcl"
   variable category "vivado_impl"
 }
 
@@ -105,12 +105,12 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
-  set_param chipscope.maxJobs 4
+  set_param chipscope.maxJobs 5
   set_param general.usePosixSpawnForFork 1
   set_param xicom.use_bs_reader 1
-  set_param runs.launchOptions { -jobs 8  }
+  set_param runs.launchOptions { -jobs 10  }
   open_checkpoint mips_fpga_routed.dcp
-  set_property webtalk.parent_dir E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.cache/wt [current_project]
+  set_property webtalk.parent_dir D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.cache/wt [current_project]
 set_property TOP mips_fpga [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

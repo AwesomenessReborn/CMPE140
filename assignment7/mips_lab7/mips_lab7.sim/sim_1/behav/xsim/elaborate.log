@@ -1,0 +1,92 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mips_fpga_behav xil_defaultlib.mips_fpga xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/clk_gen.v" Line 1. Module clk_gen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/button_debouncer.v" Line 1. Module button_debouncer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mips_top.v" Line 1. Module mips_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mips.v" Line 1. Module mips doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/datapath.v" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/dreg.v" Line 1. Module dreg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/alu.v" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/muldivunit.v" Line 1. Module muldivunit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/controlunit.v" Line 1. Module controlunit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/maindec.v" Line 1. Module maindec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/auxdec.v" Line 1. Module auxdec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/imem.v" Line 1. Module imem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/dmem.v" Line 1. Module dmem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/hex_to_7seg.v" Line 1. Module hex_to_7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/hex_to_7seg.v" Line 1. Module hex_to_7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/hex_to_7seg.v" Line 1. Module hex_to_7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/hex_to_7seg.v" Line 1. Module hex_to_7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/led_mux.v" Line 1. Module led_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/clk_gen.v" Line 1. Module clk_gen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/button_debouncer.v" Line 1. Module button_debouncer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mips_top.v" Line 1. Module mips_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mips.v" Line 1. Module mips doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/datapath.v" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/dreg.v" Line 1. Module dreg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/alu.v" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/muldivunit.v" Line 1. Module muldivunit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/controlunit.v" Line 1. Module controlunit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/maindec.v" Line 1. Module maindec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/auxdec.v" Line 1. Module auxdec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/imem.v" Line 1. Module imem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/dmem.v" Line 1. Module dmem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/hex_to_7seg.v" Line 1. Module hex_to_7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/hex_to_7seg.v" Line 1. Module hex_to_7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/hex_to_7seg.v" Line 1. Module hex_to_7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/hex_to_7seg.v" Line 1. Module hex_to_7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cmpe140vivado/CMPE140/assignment7/mips_lab7/mips_lab7.srcs/sources_1/imports/src/led_mux.v" Line 1. Module led_mux doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_gen
+Compiling module xil_defaultlib.button_debouncer_default
+Compiling module xil_defaultlib.dreg
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.mux3(WIDTH=5)
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.muldivunit
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.auxdec
+Compiling module xil_defaultlib.controlunit
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.mips_top
+Compiling module xil_defaultlib.hex_to_7seg
+Compiling module xil_defaultlib.led_mux
+Compiling module xil_defaultlib.mips_fpga
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mips_fpga_behav

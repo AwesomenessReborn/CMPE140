@@ -3,27 +3,28 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Thu Oct 16 04:35:07 2025
-# Process ID         : 30824
-# Current directory  : E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/synth_1
+# Start of session at: Thu Oct 16 10:29:31 2025
+# Process ID         : 14100
+# Current directory  : D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/synth_1
 # Command line       : vivado.exe -log mips_fpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_fpga.tcl
-# Log file           : E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/synth_1/mips_fpga.vds
-# Journal file       : E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/synth_1\vivado.jou
-# Running On         : HARI-PC
+# Log file           : D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/synth_1/mips_fpga.vds
+# Journal file       : D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/synth_1\vivado.jou
+# Running On         : Hari-XPS
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26100
-# Processor Detail   : AMD Ryzen 7 9700X 8-Core Processor             
-# CPU Frequency      : 3793 MHz
-# CPU Physical cores : 8
-# CPU Logical cores  : 16
-# Host memory        : 66157 MB
-# Swap memory        : 4160 MB
-# Total Virtual      : 70318 MB
-# Available Virtual  : 38495 MB
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 34014 MB
+# Swap memory        : 15569 MB
+# Total Virtual      : 49584 MB
+# Available Virtual  : 22222 MB
 #-----------------------------------------------------------
 source mips_fpga.tcl -notrace
-Command: read_checkpoint -auto_incremental -incremental E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/utils_1/imports/synth_1/mips_fpga.dcp
-INFO: [Vivado 12-5825] Read reference checkpoint from E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/utils_1/imports/synth_1/mips_fpga.dcp for incremental synthesis
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 492.867 ; gain = 210.957
+Command: read_checkpoint -auto_incremental -incremental D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/utils_1/imports/synth_1/mips_fpga.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/utils_1/imports/synth_1/mips_fpga.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top mips_fpga -part xc7a35tcpg236-1
 Starting synth_design
@@ -34,57 +35,57 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 29888
+INFO: [Synth 8-7075] Helper process launched with PID 27764
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1180.016 ; gain = 495.160
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1180.188 ; gain = 493.598
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'mips_fpga' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_fpga.v:1]
-INFO: [Synth 8-6157] synthesizing module 'clk_gen' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/clk_gen.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'clk_gen' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/clk_gen.v:1]
-INFO: [Synth 8-6157] synthesizing module 'button_debouncer' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/button_debouncer.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'button_debouncer' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/button_debouncer.v:1]
-INFO: [Synth 8-6157] synthesizing module 'mips_top' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_top.v:1]
-INFO: [Synth 8-6157] synthesizing module 'mips' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips.v:1]
-INFO: [Synth 8-6157] synthesizing module 'datapath' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/datapath.v:1]
-INFO: [Synth 8-6157] synthesizing module 'dreg' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dreg.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'dreg' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dreg.v:1]
-INFO: [Synth 8-6157] synthesizing module 'adder' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/adder.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'adder' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/adder.v:1]
-INFO: [Synth 8-6157] synthesizing module 'mux2' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mux2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mips_fpga' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_fpga.v:1]
+INFO: [Synth 8-6157] synthesizing module 'clk_gen' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/clk_gen.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'clk_gen' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/clk_gen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'button_debouncer' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/button_debouncer.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'button_debouncer' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/button_debouncer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mips_top' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mips' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips.v:1]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/datapath.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dreg' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dreg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dreg' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dreg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'adder' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mux2.v:1]
 	Parameter WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mux2' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mux2.v:1]
-INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mux2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mux2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mux2.v:1]
 	Parameter WIDTH bound to: 5 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mux2.v:1]
-INFO: [Synth 8-6157] synthesizing module 'regfile' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/regfile.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'regfile' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/regfile.v:1]
-INFO: [Synth 8-6157] synthesizing module 'signext' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/signext.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'signext' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/signext.v:1]
-INFO: [Synth 8-6157] synthesizing module 'alu' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/alu.v:1]
-INFO: [Synth 8-155] case statement is not full and has no default [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/alu.v:12]
-INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/alu.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'datapath' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/datapath.v:1]
-INFO: [Synth 8-6157] synthesizing module 'controlunit' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/controlunit.v:1]
-INFO: [Synth 8-6157] synthesizing module 'maindec' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/maindec.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'maindec' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/maindec.v:1]
-INFO: [Synth 8-6157] synthesizing module 'auxdec' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/auxdec.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'auxdec' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/auxdec.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'controlunit' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/controlunit.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'mips' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips.v:1]
-INFO: [Synth 8-6157] synthesizing module 'imem' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/imem.v:1]
-CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'memfile.dat'; please make sure the file is added to project and has read permission, ignoring [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/imem.v:9]
-INFO: [Synth 8-6155] done synthesizing module 'imem' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/imem.v:1]
-INFO: [Synth 8-6157] synthesizing module 'dmem' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dmem.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'dmem' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dmem.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'mips_top' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_top.v:1]
-INFO: [Synth 8-6157] synthesizing module 'hex_to_7seg' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/hex_to_7seg.v:1]
-INFO: [Synth 8-226] default block is never used [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/hex_to_7seg.v:7]
-INFO: [Synth 8-6155] done synthesizing module 'hex_to_7seg' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/hex_to_7seg.v:1]
-INFO: [Synth 8-6157] synthesizing module 'led_mux' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/led_mux.v:1]
-INFO: [Synth 8-226] default block is never used [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/led_mux.v:20]
-INFO: [Synth 8-6155] done synthesizing module 'led_mux' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/led_mux.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'mips_fpga' (0#1) [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_fpga.v:1]
-WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/imem.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mux2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'signext' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/signext.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'signext' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/signext.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/alu.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/alu.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/alu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/datapath.v:1]
+INFO: [Synth 8-6157] synthesizing module 'controlunit' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/controlunit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'maindec' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/maindec.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'maindec' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/maindec.v:1]
+INFO: [Synth 8-6157] synthesizing module 'auxdec' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/auxdec.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'auxdec' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/auxdec.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'controlunit' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/controlunit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mips' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips.v:1]
+INFO: [Synth 8-6157] synthesizing module 'imem' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/imem.v:1]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'memfile.dat'; please make sure the file is added to project and has read permission, ignoring [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/imem.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'imem' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/imem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dmem' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dmem.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dmem' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/dmem.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mips_top' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'hex_to_7seg' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/hex_to_7seg.v:1]
+INFO: [Synth 8-226] default block is never used [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/hex_to_7seg.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'hex_to_7seg' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/hex_to_7seg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'led_mux' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/led_mux.v:1]
+INFO: [Synth 8-226] default block is never used [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/led_mux.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'led_mux' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/led_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mips_fpga' (0#1) [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/mips_fpga.v:1]
+WARNING: [Synth 8-3848] Net rom in module/entity imem does not have driver. [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/imem.v:6]
 WARNING: [Synth 8-7129] Port y[31] in module imem is either unconnected or has no load
 WARNING: [Synth 8-7129] Port y[30] in module imem is either unconnected or has no load
 WARNING: [Synth 8-7129] Port y[29] in module imem is either unconnected or has no load
@@ -130,54 +131,54 @@ WARNING: [Synth 8-7129] Port instr[28] in module datapath is either unconnected 
 WARNING: [Synth 8-7129] Port instr[27] in module datapath is either unconnected or has no load
 WARNING: [Synth 8-7129] Port instr[26] in module datapath is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1287.277 ; gain = 602.422
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1288.242 ; gain = 601.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1287.277 ; gain = 602.422
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1288.242 ; gain = 601.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1287.277 ; gain = 602.422
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1288.242 ; gain = 601.652
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1287.277 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1288.820 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc]
-Finished Parsing XDC File [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mips_fpga_propImpl.xdc].
+Parsing XDC File [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc]
+Finished Parsing XDC File [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/constrs_1/imports/lab/mips_fpga.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mips_fpga_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/mips_fpga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1363.340 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1391.207 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1363.340 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1391.207 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1363.340 ; gain = 678.484
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1391.207 ; gain = 704.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1363.340 ; gain = 678.484
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1391.207 ; gain = 704.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1363.340 ; gain = 678.484
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1391.207 ; gain = 704.617
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-327] inferring latch for variable 'y_reg' [E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/alu.v:9]
+WARNING: [Synth 8-327] inferring latch for variable 'y_reg' [D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.srcs/sources_1/imports/lab/alu.v:9]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1363.340 ; gain = 678.484
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1391.207 ; gain = 704.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -247,7 +248,7 @@ WARNING: [Synth 8-3332] Sequential element (mips_top/mips/dp/alu/y_reg[2]) is un
 WARNING: [Synth 8-3332] Sequential element (mips_top/mips/dp/alu/y_reg[1]) is unused and will be removed from module mips_fpga.
 WARNING: [Synth 8-3332] Sequential element (mips_top/mips/dp/alu/y_reg[0]) is unused and will be removed from module mips_fpga.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1363.340 ; gain = 678.484
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1391.207 ; gain = 704.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -268,13 +269,13 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1493.613 ; gain = 808.758
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1490.824 ; gain = 804.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1516.027 ; gain = 831.172
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1513.090 ; gain = 826.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -294,7 +295,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1525.891 ; gain = 841.035
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1522.988 ; gain = 836.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -312,37 +313,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1739.031 ; gain = 1054.176
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1736.184 ; gain = 1049.594
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1739.031 ; gain = 1054.176
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1736.184 ; gain = 1049.594
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1739.031 ; gain = 1054.176
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1736.184 ; gain = 1049.594
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1739.031 ; gain = 1054.176
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1736.184 ; gain = 1049.594
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1739.031 ; gain = 1054.176
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1736.184 ; gain = 1049.594
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1739.031 ; gain = 1054.176
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1736.184 ; gain = 1049.594
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -374,18 +375,18 @@ Report Cell Usage:
 |14    |OBUF     |    13|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1739.031 ; gain = 1054.176
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1736.184 ; gain = 1049.594
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 34 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1739.031 ; gain = 978.113
-Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1739.031 ; gain = 1054.176
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 1736.184 ; gain = 946.629
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1736.184 ; gain = 1049.594
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1739.031 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1745.367 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 33 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1739.031 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1749.094 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
@@ -394,9 +395,9 @@ Synth Design complete | Checksum: eb17b446
 INFO: [Common 17-83] Releasing license: Synthesis
 64 Infos, 79 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1739.031 ; gain = 1238.676
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 1749.094 ; gain = 1251.176
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1739.031 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'E:/CODE/cmpe140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/synth_1/mips_fpga.dcp' has been generated.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1749.094 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/synth_1/mips_fpga.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file mips_fpga_utilization_synth.rpt -pb mips_fpga_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Oct 16 04:35:30 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 16 10:30:29 2025...

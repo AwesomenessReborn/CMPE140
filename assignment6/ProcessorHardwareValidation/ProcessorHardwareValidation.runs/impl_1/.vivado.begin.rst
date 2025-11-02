@@ -1,20 +1,10 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="haree" Host="HARI-PC" Pid="11312" HostCore="16" HostMemory="066157801472">
+    <Process Command="vivado.bat" Owner="haree" Host="HARI-XPS" Pid="40820" HostCore="20" HostMemory="034014814208">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="haree" Host="HARI-PC" Pid="35288" HostCore="16" HostMemory="066157801472">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="haree" Host="HARI-PC" Pid="34712" HostCore="16" HostMemory="066157801472">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="haree" Host="HARI-PC" Pid="2900" HostCore="16" HostMemory="066157801472">
+    <Process Command="vivado.bat" Owner="haree" Host="HARI-XPS" Pid="23036" HostCore="20" HostMemory="034014814208">
     </Process>
 </ProcessHandle>

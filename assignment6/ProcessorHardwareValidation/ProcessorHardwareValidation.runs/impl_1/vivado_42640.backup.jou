@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Oct 16 10:30:49 2025
+# Process ID         : 42640
+# Current directory  : D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/impl_1
+# Command line       : vivado.exe -log mips_fpga.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mips_fpga.tcl -notrace
+# Log file           : D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/impl_1/mips_fpga.vdi
+# Journal file       : D:/cmpe140vivado/CMPE140/assignment6/ProcessorHardwareValidation/ProcessorHardwareValidation.runs/impl_1\vivado.jou
+# Running On         : Hari-XPS
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 34014 MB
+# Swap memory        : 15569 MB
+# Total Virtual      : 49584 MB
+# Available Virtual  : 22158 MB
+#-----------------------------------------------------------
+source mips_fpga.tcl -notrace

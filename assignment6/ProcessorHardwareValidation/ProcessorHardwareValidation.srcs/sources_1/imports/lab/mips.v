@@ -25,8 +25,8 @@ module mips (
             .branch         (branch),
             .jump           (jump),
             .reg_dst        (reg_dst),
-//            .we_reg         (we_reg),
-            .we_reg     (1'b1), // <-- TEMPORARY CHANGE HERE
+            .we_reg         (we_reg),
+//            .we_reg     (1'b1), // <-- TEMPORARY CHANGE HERE
             .alu_src        (alu_src),
             .dm2reg         (dm2reg),
             .alu_ctrl       (alu_ctrl),
